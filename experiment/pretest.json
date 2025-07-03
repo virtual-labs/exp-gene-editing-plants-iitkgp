@@ -2,36 +2,62 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Which technique is used to amplify DNA segments?  ",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "PCR",
+        "b": "ELISA",
+        "c": "Western blot",
+        "d": "Flow cytometry"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
+     
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. Which vector is commonly used for gene transformation in plants?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Lambda phage",
+        "b": "BAC",
+        "c": "Ti plasmid",
+        "d": "Cosmid"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which of the following is a selectable marker in plant transformation?",
+      "answers": {
+        "a": "GFP",
+        "b": "GUS",
+        "c": "Kanamycin resistance gene",
+        "d": "CaMV 35S promoter"
       },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which of the following is not a gene editing tool?",
+      "answers": {
+        "a": "CRISPR/Cas9",
+        "b": "TALEN",
+        "c": "Zinc Finger Nucleases",
+        "d": "Western blot"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Which organism's immune system inspired the development of the CRISPR/Cas9 system?",
+      "answers": {
+        "a": "Yeast",
+        "b": "Human",
+        "c": "Bacteria",
+        "d": "Plants"
+      },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
     }

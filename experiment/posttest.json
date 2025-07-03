@@ -2,20 +2,39 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Which gene editing tool is most widely used in plant genome editing today?",
       "answers": {
-        "a": "answer1",
+        "a": "TALEN",
+        "b": "Zinc Finger Nuclease",
+        "c": "CRISPR/Cas9",
+        "d": "RNAi"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. In the CRISPR/Cas9 system, what does the Cas9 protein function as?",
+      "answers": {
+        "a": "DNA repair enzyme",
+        "b": "DNA methyltransferase",
+        "c": "RNA polymerase",
+        "d": "Endonuclease"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which of the following is a limitation of using CRISPR/Cas9 in plants?",
+      "answers": {
+        "a": "Cost of reagents",
         "b": "answer2",
         "c": "answer3",
         "d": "answer4"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
@@ -26,12 +45,19 @@
         "c": "answer3",
         "d": "answer4"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "This is a Sample Question 2?",
+      "answers": {
+        "a": "answer1",
+        "b": "answer2",
+        "c": "answer3",
+        "d": "answer4"
       },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
