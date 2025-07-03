@@ -2,37 +2,63 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Which gene editing tool is most widely used in plant genome editing today?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "TALEN",
+        "b": "Zinc Finger Nuclease",
+        "c": "CRISPR/Cas9",
+        "d": "RNAi"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. In the CRISPR/Cas9 system, what does the Cas9 protein function as?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "DNA repair enzyme",
+        "b": "DNA methyltransferase",
+        "c": "RNA polymerase",
+        "d": "Endonuclease"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which of the following is a limitation of using CRISPR/Cas9 in plants?",
+      "answers": {
+        "a": "Cost of reagents",
+        "b": "Lack of off-target effects",
+        "c": "Precision in editing",
+        "d": "Regulatory hurdles and GMO classification"
       },
-      "correctAnswer": "c",
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which of the following can act as a DNA repair pathway post-Cas9 cleavage?",
+      "answers": {
+        "a": "RNA splicing",
+        "b": "Non-homologous end joining (NHEJ)",
+        "c": "DNA methylation",
+        "d": "DNA replication"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Gene editing in plants can be used to:",
+      "answers": {
+        "a": "Improve disease resistance",
+        "b": "Increase drought tolerance",
+        "c": "Increase drought tolerance",
+        "d": "All of the above"
+      },
+      
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
