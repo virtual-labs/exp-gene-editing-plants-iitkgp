@@ -15,3 +15,16 @@
 14. Paulose, B., Chhikara, S., Coomey, J., Jung, H. I., Vatamaniuk, O., Dhankher, O. P. (2013). A γ-glutamyl cyclotransferase protects arabidopsis plants from heavy metal toxicity by recycling glutamate to maintain glutathione homeostasis. Plant Cell. 11), 4580–4595. doi: 10.1105/tpc.113.111815
 15. Baeg, G. J., Kim, S. H., Choi, D. M., Tripathi, S., Han, Y. J., Kim, J., II (2021). CRISPR/Cas9-mediated mutation of 5-oxoprolinase gene confers resistance to sulfonamide compounds in arabidopsis. Plant Biotechnol. Rep. 15, 753–764. doi: 10.1007/s11816-021-00718-w
 
+16.	Abdellatif, A.M.M., Vles, R.O., 1971. The effect of various fat supplements on the nutritional and pathogenic characteristics of diets containing erucic acid in ducklings. Nutr. Metab. 13, 65–74.
+
+17.	Mortuza, G., Dutta, P.C., Das, M.L., 2005. Erucic acid content in some rapeseed/mustard cultivars developed in Bangladesh. J. Sci. Food Agric. 86 (1).
+
+18.	Ohlrogge, J., Browse, J., 1995. Lipid biosynthesis. Plant Cell 7 (7), 957–970.
+
+19.	Li-Beisson, Y., Shorrosh, B., Beisson, F., Andersson, M.X., Arondel, V., Bates, P.D.,Baud, S., et al., 2010. Acyl-lipid metabolism. Arabidopsis Book 8, e0133.
+
+20.	Gill, K.S., Kaur, G., Kaur, G., Kaur, J., Kaur Sra, S., Kaur, K., Gurpreet, K., Sharma, M., Bansal, M., Chhuneja, P., Banga, S.S., 2021. Development and validation of kompetitive allele-specific PCR assays for erucic acid content in Indian mustard [Brassica juncea (L.) czern and coss.]. Frontiers in plant science 12, 738805.
+
+21.	Patra, N., Barker, G.C., Maiti, M.K., 2025. Knockout of fatty acid elongase1 homeoalleles in amphidiploid Brassica juncea leads to undetectable erucic acid in seed oil. Plant Physiol. Biochem. 222, 109679
+
+
