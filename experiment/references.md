@@ -1,4 +1,4 @@
-#### References:
+## References:
 1. Kumar M, Prusty MR, Pandey MK, Singh PK, Bohra A, Guo B and Varshney RK (2023) Application of CRISPR/Cas9-mediated gene editing for abiotic stress management in crop plants. Front. Plant Sci. 14:1157678. doi: 10.3389/fpls.2023.1157678
 2. Singh, D., Laxmi, A. (2015). Transcriptional regulation of drought response: A tortuous network of transcriptional factors. Front. Plant Sci. 6. doi: 10.3389/fpls.2015.00895
 3. Liu, L., Zhang, J., Xu, J., Li, Y., Guo, L., Wang, Z., et al. (2020). CRISPR/Cas9 targeted mutagenesis of SlLBD40, a lateral organ boundaries domain transcription factor, enhances drought tolerance in tomato. Plant Sci. 301, 110683. doi: 10.1016/j.plantsci.2020.110683
