@@ -12,7 +12,7 @@
 11. Yadav, S. K. (2010). Heavy metals toxicity in plants: An overview on the role of glutathione and phytochelatins in heavy metal stress tolerance of plants. South Afr. J. Bot. 76, 167–179. doi: 10.1016/j.sajb.2009.10.007
 12. Sruthi, P., Shackira, A. M., Puthur, J. T. (2017). Heavy metal detoxification mechanisms in halophytes: an overview. WetlEcolManag 25, 113–127. doi: 10.1007/s11273-016-9513-z
 13. Hasanuzzaman, M., Hakeem, K. R., Nahar, K., Alharby, H. F. (2019). Plant abiotic stress tolerance: Agronomic, molecular and biotechnological approaches. (Springer: Cham) 490. doi: 10.1007/978-3-030-06118-0
-14. Paulose, B., Chhikara, S., Coomey, J., Jung, H. I., Vatamaniuk, O., Dhankher, O. P. (2013). A γ-glutamyl cyclotransferase protects arabidopsis plants from heavy metal toxicity by recycling glutamate to maintain glutathione homeostasis. Plant Cell. 11), 4580–4595. doi: 10.1105/tpc.113.111815
+14. Paulose, B., Chhikara, S., Coomey, J., Jung, H. I., Vatamaniuk, O., Dhankher, O. P. (2013). A γ-glutamyl cyclotransferase protects arabidopsis plants from heavy metal toxicity by recycling glutamate to maintain glutathione homeostasis. Plant Cell. 11, 4580–4595. doi: 10.1105/tpc.113.111815
 15. Baeg, G. J., Kim, S. H., Choi, D. M., Tripathi, S., Han, Y. J., Kim, J., II (2021). CRISPR/Cas9-mediated mutation of 5-oxoprolinase gene confers resistance to sulfonamide compounds in arabidopsis. Plant Biotechnol. Rep. 15, 753–764. doi: 10.1007/s11816-021-00718-w
 
 16.	Abdellatif, A.M.M., Vles, R.O., 1971. The effect of various fat supplements on the nutritional and pathogenic characteristics of diets containing erucic acid in ducklings. Nutr. Metab. 13, 65–74.

@@ -54,11 +54,71 @@
       "answers": {
         "a": "Improve disease resistance",
         "b": "Increase drought tolerance",
-        "c": "Increase drought tolerance",
+        "c": "Enhance yield and quality traits",
         "d": "All of the above"
       },
       
-      "correctAnswer": "a",
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "6. In the CRISPR/Cas9 system, target specificity is primarily determined by",
+      "answers": {
+        "a": "Cas9 protein",
+        "b": "PAM sequence",
+        "c": "Guide RNA (gRNA)",
+        "d": "Repair enzymes"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "7. The PAM sequence required for Streptococcus pyogenes Cas9 is",
+      "answers": {
+        "a": "TTAA",
+        "b": "NGG",
+        "c": "NTT",
+        "d": "CCN"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "8. One major limitation of HDR-based editing in plants is",
+      "answers": {
+        "a": "Lack of Cas proteins",
+        "b": "Low efficiency in somatic plant cells",
+        "c": "Absence of PAM sequences",
+        "d": "Toxicity of donor DNA"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "9. Multiplex genome editing in plants refers to",
+      "answers": {
+        "a": "Editing multiple species simultaneously",
+        "b": "Editing multiple genes in a single experiment",
+        "c": "Editing organellar genomes",
+        "d": "Re-editing the same gene repeatedly"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "10. Base editors differ from standard CRISPR/Cas9 because they ",
+      "answers": {
+        "a": "Create double-stranded breaks",
+        "b": "Use homologous recombination",
+        "c": "Enable single-base substitutions without DSBs",
+        "d": "Require zinc finger protiens"
+      },
+      
+      "correctAnswer": "c",
       "difficulty": "beginner"
     }
   ]
