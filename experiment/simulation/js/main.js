@@ -139,7 +139,7 @@ function btn13click() {
 
 
 function hidenotemsg() {
-    document.getElementById("showalerttxt").style.display = "none";
-    document.getElementById("showalerttxt").classList.remove("show");
+    document.getElementById("shownote").style.display = "none";
+    document.getElementById("shownote").classList.remove("show");
 
 }
