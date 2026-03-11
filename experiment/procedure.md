@@ -87,3 +87,7 @@ A comparative fatty acid profile analysis of mature T2 generation seeds using ga
 This study clearly exhibits that the CRISPR-Cas9 mechanism of gene editing showed the desired reduction of erucic acid in the knockout plants without hampering the normal growth and development of the plant. [Note: A simplified figure is shown in the simulation tab].
 
 
+<div>
+<img src="./images/Procedure Flowchart image.png" style="max-width:100%; height:auto;">
+<p>A schematic flowchart of all the necessary steps in a gene editing experiment by CRISPR-Cas9 technology</p>
+</div>
