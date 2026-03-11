@@ -1,0 +1,30 @@
+
+/home/runner/work/exp-gene-editing-plants-iitkgp/exp-gene-editing-plants-iitkgp/experiment/simulation/js/main.js
+    1:10  warning  'restartexp' is defined but never used         no-unused-vars
+    5:10  warning  'showselectedplant' is defined but never used  no-unused-vars
+   13:10  warning  'showgene' is defined but never used           no-unused-vars
+   23:10  warning  'showdnaseq' is defined but never used         no-unused-vars
+   29:5   warning  '$' is not defined                             no-undef
+   30:5   warning  '$' is not defined                             no-undef
+   36:10  warning  'selectexpgene' is defined but never used      no-unused-vars
+   46:10  warning  'showdnaseqdata' is defined but never used     no-unused-vars
+   57:10  warning  'showdnamolecules' is defined but never used   no-unused-vars
+   63:5   warning  '$' is not defined                             no-undef
+   64:5   warning  '$' is not defined                             no-undef
+   69:10  warning  'showplasmidred' is defined but never used     no-unused-vars
+   79:10  warning  'btn8click' is defined but never used          no-unused-vars
+   85:5   warning  '$' is not defined                             no-undef
+   86:5   warning  '$' is not defined                             no-undef
+   90:10  warning  'btn9click' is defined but never used          no-unused-vars
+  100:10  warning  'btn10click' is defined but never used         no-unused-vars
+  106:5   warning  '$' is not defined                             no-undef
+  107:5   warning  '$' is not defined                             no-undef
+  111:10  warning  'btn11click' is defined but never used         no-unused-vars
+  121:10  warning  'btn12click' is defined but never used         no-unused-vars
+  130:10  warning  'btn13click' is defined but never used         no-unused-vars
+  134:5   warning  '$' is not defined                             no-undef
+  135:5   warning  '$' is not defined                             no-undef
+  141:10  warning  'hidenotemsg' is defined but never used        no-unused-vars
+
+✖ 25 problems (0 errors, 25 warnings)
+

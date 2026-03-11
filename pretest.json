@@ -1,0 +1,125 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Which technique is used to amplify DNA segments?  ",
+      "answers": {
+        "a": "PCR",
+        "b": "ELISA",
+        "c": "Western blot",
+        "d": "Flow cytometry"
+      },
+     
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. Which vector is commonly used for gene transformation in plants?",
+      "answers": {
+        "a": "Lambda phage",
+        "b": "BAC",
+        "c": "Ti plasmid",
+        "d": "Cosmid"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which of the following is a selectable marker in plant transformation?",
+      "answers": {
+        "a": "GFP",
+        "b": "GUS",
+        "c": "Kanamycin resistance gene",
+        "d": "CaMV 35S promoter"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which of the following is not a gene editing tool?",
+      "answers": {
+        "a": "CRISPR/Cas9",
+        "b": "TALEN",
+        "c": "Zinc Finger Nucleases",
+        "d": "Western blot"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Which organism's immune system inspired the development of the CRISPR/Cas9 system?",
+      "answers": {
+        "a": "Yeast",
+        "b": "Human",
+        "c": "Bacteria",
+        "d": "Plants"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "6. The central dogma of molecular biology describes the flow of genetic information from",
+      "answers": {
+        "a": "Protein → RNA → DNA",
+        "b": "RNA → DNA → Protein",
+        "c": "DNA → RNA → Protein",
+        "d": "DNA → Protein → RNA"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "7. DNA ligase catalyzes the formation of",
+      "answers": {
+        "a": "Hydrogen bonds",
+        "b": "Phosphodiester bonds",
+        "c": "Peptide bonds",
+        "d": "Glycosidic bonds"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "8. The T-DNA region is transferred from Agrobacterium into the",
+      "answers": {
+        "a": "Chloroplast genome",
+        "b": "Mitochondrial genome",
+        "c": "Plant nuclear genome",
+        "d": "Ribosomal DNA"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "9. A promoter in a gene construct is responsible for",
+      "answers": {
+        "a": "Cutting DNA",
+        "b": "Terminating transcription",
+        "c": "Initiating transcription",
+        "d": "Translating mRNA"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "10. Homologous recombination requires",
+      "answers": {
+        "a": "RNA primers",
+        "b": "Short repetitive sequences",
+        "c": "A homologous DNA template",
+        "d": "Ribosomal proteins"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    }
+  ]
+}
