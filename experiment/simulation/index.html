@@ -1,13 +1,247 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
-</head>
-<body>
-		<!-- Your code goes here-->
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Add CSS at the head of HTML file -->
+	<link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+	<!-- Your code goes here-->
+	<div class="container-fluid p-2 mt-2 ">
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+						Instructions
+						<button class="btn btn-warning " style="float:right;" type="button" id="restart"
+							onclick="restartexp()">
+							Re-Do the Experiment</button>
+					</div>
+
+					<div class="card-body">
+						<ol id="inst1">
+							<li>Click on the button "Select plant whose gene is to be edited" to display plant. </li>
+							<li>Click on the button "Select a gene to be edited" .</li>
+							
+							<li>Click on the button "Retrieve sequence information of gene from NCBI".</li>
+							<li>Click on the button "Order/synthesize CRISPR plasmid with codon optimised Cas9 gene". </li>
+							<li>Click on the button "Use softwares like CRISPR-P v2.0 or Cas Offinder to find the optimum Cas9 binding guide RNA locations within the gene". </li>
+							<li>Click on the button "Synthesize the red highlighted parts of the DNA as guide RNA".
+							</li>
+							<li>Click on the button "Ligate the synthesized guide RNAs into the CRISPR plasmid". </li>
+							<li>Click on the button "Transform plant with guide RNA ligated CRISPR plasmid via electroporation or gene gun and regenerate plant".
+							</li>
+							<li>Click on the button "Isolate genomic DNA from both wildtype plant and transformed plant".</li>
+							<li>CLick on the button "PCR using gene specific primers from both wildtype plant gDNA and transformed plant gDNA".</li>
+							<li>Click on the button "Purify the PCR products and analyse them via Sanger DNA Sequencing"</li>
+							<li>Click on the button "Compare the sanger sequencing results of both PCR products"</li>
+							<li>Click on the button "If gene edited, identify traits/phenotype due to that non-functional gene"</li>
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header fs-5 fw-bold">
+
+
+					</div>
+
+					<div class="card-body">
+
+						<table class="table table-bordered">
+							<tr><td>Step 1</td>
+								<td>
+									<button class="btn btn-info " type="button" id="btn1" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;"
+										onclick="showselectedplant();">
+										Select a plant</button>
+								</td>
+							</tr>
+							<tr><td>Step 2</td>
+								<td> <button class="btn btn-info " type="button" id="btn2" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										Select a gene to be edited </button></td>
+							</tr>
+							<tr><td>Step 3</td>
+								<td>
+									<button class="btn btn-info " type="button" id="btn3" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										Retrieve sequence information of gene from NCBI</button>
+									
+
+								</td>
+							</tr>
+							<tr><td>Step 4</td>
+								<td><button class="btn btn-info " type="button" id="btn4" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" disabled="true" style="cursor: pointer;">
+										Order/synthesize CRISPR plasmid with codon optimised Cas9 gene</button>
+									
+								</td>
+							</tr>
+							<tr><td>Step 5</td>
+								<td>
+									<button class="btn btn-info " type="button" id="btn5" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" disabled="true" style="cursor: pointer;">
+										Use softwares like CRISPR-P v2.0 or Cas Offinder to find the optimum Cas9 binding guide RNA locations within the gene</button>
+
+
+								</td>
+							</tr>
+							<tr><td>Step 6</td>
+								<td>
+									<button class="btn btn-info " type="button" id="btn6" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" disabled="true" style="cursor: pointer;">
+										Synthesize the red highlighted parts of the DNA as guide RNA sequences</button>
+
+								</td>
+							</tr>
+							<tr><td>Step 7</td>
+								<td><button class="btn btn-info " type="button" id="btn7" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										Ligate the synthesized guide RNAs into the CRISPR plasmid</button></td>
+							</tr>
+							<tr><td>Step 8</td>
+								<td> <button class="btn btn-info " type="button" id="btn8" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										Transform plant with guide RNA ligated CRISPR plasmid via electroporation or gene gun and regenerate plant</button></td>
+							</tr>
+							<tr><td>Step 9</td>
+								<td><button class="btn btn-info " type="button" id="btn9" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										Isolate genomic DNA from both wildtype plant and transformed plant</button>
+
+								</td>
+							</tr>
+							<tr><td>Step 10</td>
+								<td><button class="btn btn-info " type="button" id="btn10" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										PCR using gene specific primers from both wildtype plant gDNA and transformed plant gDNA</button>
+
+								</td>
+							</tr>
+							<tr><td>Step 11</td>
+								<td><button class="btn btn-info " type="button" id="btn11" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										Purify the PCR products and analyse them via Sanger DNA Sequencing</button>
+
+								</td>
+							</tr>
+							<tr><td>Step 12</td>
+								<td><button class="btn btn-info " type="button" id="btn12" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										Compare the sanger sequencing results of both PCR products</button>
+
+								</td>
+							</tr>
+							<tr><td>Step 13</td>
+								<td><button class="btn btn-info " type="button" id="btn13" data-bs-toggle="modal"
+										data-bs-target="#exampleModal" style="cursor: pointer;" disabled="true">
+										If gene edited, identify traits/phenotype due to that non-functional gene</button>
+
+								</td>
+							</tr>
+							
+
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row ">
+			<div class="col-md-12">
+				<div class="card card-body border border-0" id="card1">
+					<img src="./images/2.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Plant" id="plantcss">
+					<img src="./images/4.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="DNA" id="genetobeedited">
+<img src="./images/6.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="DNA sequence" id="DNAseq">
+						<img src="./images/8.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="Plasmid" id="plasmid">
+						<img src="./images/10.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="DNA sequence" id="dnaseqdata">
+						<img src="./images/12.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom"
+						title="DNA molecules" id="dnamolecules">
+					<img src="./images/14.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Plasmid"
+						id="plasmidred">
+
+					
+				</div>
+			</div>
+			<div class="row ">
+							<div class="col-md-12">
+				<div class="card card-body border border-0" id="card2">
+					<img src="./images/16.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="New plant".
+						id="newplant">
+
+					<img src="./images/18.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title="Two genomic DNA strands "
+						id="twogenomicdna">
+					<img src="./images/20.png" class="img-fluid" id="agarosegel" data-toggle="tooltip" data-placement="bottom" title="Agarose gel with DNA ladder ">
+</div>
+</div>
+<div class="row "></div>
+				<div class="col-md-12">
+				<div class="card card-body border border-0" id="card3">	
+					<img src="./images/22.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title=""
+						id="img22">
+					<img src="./images/24.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title=""
+						id="img24">
+					<img src="./images/26.png" class="img-fluid" data-toggle="tooltip" data-placement="bottom" title=""
+						id="img26">
+					
+
+				</div>
+			</div>
+
+
+		</div>
+	</div>
+
+<div class="modal fade" id="shownote" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Note</h5>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+				</div>
+				<div class="modal-body">
+					<p></p>
+
+				</div>
+				<div class="modal-footer">
+
+					<button type="button" class="btn btn-warning" onclick="hidenotemsg();"
+						data-bs-dismiss="modal">OK</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.canvasjs.com/canvasjs.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+	<!-- Add JS at the bottom of HTML file -->
+	<script src="./js/main.js"></script>
+	<script>
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip(
+				{
+					placement: 'bottom'
+				}
+			);
+		})
+
+	</script>
 </body>
+
 </html>

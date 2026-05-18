@@ -2,36 +2,122 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1. Which gene editing tool is most widely used in plant genome editing today?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "TALEN",
+        "b": "Zinc Finger Nuclease",
+        "c": "CRISPR/Cas9",
+        "d": "RNAi"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "2. In the CRISPR/Cas9 system, what does the Cas9 protein function as?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "DNA repair enzyme",
+        "b": "DNA methyltransferase",
+        "c": "RNA polymerase",
+        "d": "Endonuclease"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. Which of the following is a limitation of using CRISPR/Cas9 in plants?",
+      "answers": {
+        "a": "Cost of reagents",
+        "b": "Lack of off-target effects",
+        "c": "Precision in editing",
+        "d": "Regulatory hurdles and GMO classification"
       },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which of the following can act as a DNA repair pathway post-Cas9 cleavage?",
+      "answers": {
+        "a": "RNA splicing",
+        "b": "Non-homologous end joining (NHEJ)",
+        "c": "DNA methylation",
+        "d": "DNA replication"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Gene editing in plants can be used to:",
+      "answers": {
+        "a": "Improve disease resistance",
+        "b": "Increase drought tolerance",
+        "c": "Enhance yield and quality traits",
+        "d": "All of the above"
+      },
+      
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "6. In the CRISPR/Cas9 system, target specificity is primarily determined by",
+      "answers": {
+        "a": "Cas9 protein",
+        "b": "PAM sequence",
+        "c": "Guide RNA (gRNA)",
+        "d": "Repair enzymes"
+      },
+      
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "7. The PAM sequence required for Streptococcus pyogenes Cas9 is",
+      "answers": {
+        "a": "TTAA",
+        "b": "NGG",
+        "c": "NTT",
+        "d": "CCN"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "8. One major limitation of HDR-based editing in plants is",
+      "answers": {
+        "a": "Lack of Cas proteins",
+        "b": "Low efficiency in somatic plant cells",
+        "c": "Absence of PAM sequences",
+        "d": "Toxicity of donor DNA"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "9. Multiplex genome editing in plants refers to",
+      "answers": {
+        "a": "Editing multiple species simultaneously",
+        "b": "Editing multiple genes in a single experiment",
+        "c": "Editing organellar genomes",
+        "d": "Re-editing the same gene repeatedly"
+      },
+      
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "10. Base editors differ from standard CRISPR/Cas9 because they ",
+      "answers": {
+        "a": "Create double-stranded breaks",
+        "b": "Use homologous recombination",
+        "c": "Enable single-base substitutions without DSBs",
+        "d": "Require zinc finger protiens"
+      },
+      
       "correctAnswer": "c",
       "difficulty": "beginner"
     }
